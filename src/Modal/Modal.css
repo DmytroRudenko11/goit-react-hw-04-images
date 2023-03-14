@@ -1,0 +1,29 @@
+.Modal {
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  right: 15%;
+  bottom: 5%;
+  background-color: papayawhip;
+
+  border-radius: 20px;
+  z-index: 3;
+}
+
+.Modal:focus {
+  outline: none;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 191, 0, 0.5);
+  z-index: 4;
+}
+
+.Modal_image {
+  border-radius: 20px;
+}
